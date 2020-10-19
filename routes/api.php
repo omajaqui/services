@@ -30,3 +30,4 @@ Route::group(['middleware' =>[], 'prefix' => 'v1'], function(){
  */
 
 Route::post('login/ValidarIngreso', 'LoginController@ValidarIngreso');
+Route::post('login/test', 'LoginController@test');
